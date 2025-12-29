@@ -16,3 +16,7 @@ print(a * b)
 # Checking Fetch Function
 
 print("Checking the fetch method")
+
+# Checking the fetch function again
+
+print('Checking fetch function - 02')
