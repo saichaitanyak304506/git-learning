@@ -1,14 +1,15 @@
 import { useState } from "react";
 import "./App.css";
 import Debounce from "./components/debounce";
+import InfiniteScrolling from "./components/InfiniteScrolling";
 
 function App() {
-  const [count, setCount] = useState(0);
 
   return (
-    <>
-      <Debounce />
-    </>
+    <div>
+      {/* <Debounce /> */}
+      <InfiniteScrolling />
+    </div>
   );
 }
 
